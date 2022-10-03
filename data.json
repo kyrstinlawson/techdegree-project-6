@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A web application that generates a random quote",
+            "technologies": [
+                "arrays",
+                "objects",
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "https://kyrstinlawson.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/kyrstinlawson/techdegree-project-1/",
+            "image_urls": []
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A student directory that allows searching and filtering.",
+            "technologies": [
+                "pagination",
+                "filtering",
+                "search bar",
+                "HTML",
+                "Javascript"
+            ],
+            "live_link": "https://kyrstinlawson.github.io/techdegree-project-2/",
+            "github_link": "https://github.com/kyrstinlawson/techdegree-project-2/",
+            "image_urls": []
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactive registration form for a conference.",
+            "technologies": [
+                "error handling",
+                "conditional behavior",
+                "user input validation",
+                "Javascript"
+            ],
+            "live_link": "https://kyrstinlawson.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/kyrstinlawson/techdegree-project-3/",
+            "image_urls": []
+        }
+    ]
+}
