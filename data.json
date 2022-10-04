@@ -43,6 +43,36 @@
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-3/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-3/",
             "image_urls": []
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter - Word Guessing Game",
+            "description": "An interactive word guessing game.",
+            "technologies": [
+                "object-oriented programming",
+                "conditional behavior",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "https://kyrstinlawson.github.io/techdegree-project-4/",
+            "github_link": "https://github.com/kyrstinlawson/techdegree-project-4/",
+            "image_urls": []
+        },
+        {
+            "id": 4,
+            "project_name": "Employee Directory with Modal",
+            "description": "A searchable employee directory with interavtive modal.",
+            "technologies": [
+                "API requests",
+                "JSON",
+                "search bar",
+                "modal window",
+                "Javascript",
+                "CSS"
+            ],
+            "live_link": "https://kyrstinlawson.github.io/techdegree-project-5/",
+            "github_link": "https://github.com/kyrstinlawson/techdegree-project-5/",
+            "image_urls": []
         }
     ]
 }
