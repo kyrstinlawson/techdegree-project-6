@@ -19,13 +19,13 @@ app.get("/about", (req, res) => {
 
 app.get("/project/:id", (req, res) => {
     const {id} = req.params;
-    console.log(data.projects[id]);
     res.render("project", data.projects[id]);
 });
 
 app.use((req, res, next) => {
     const err = new Error("Not found");
     err.status = 404;
+    err.message = "Page not found";
     next(err);
 });
 
