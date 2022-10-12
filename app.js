@@ -19,7 +19,7 @@ app.get("/about", (req, res) => {
 
 app.get("/project/:id", (req, res) => {
     const {id} = req.params;
-    res.render("project", {projects});
+    res.render("project", {project: projects[id]});
 });
 
 app.use((req, res, next) => {
