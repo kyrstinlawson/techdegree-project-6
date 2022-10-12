@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require('path');
 const bodyParser = require("body-parser");
-const data = require("./data.json");
+const {projects} = require("./data.json");
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.use('/static', express.static('public'));
 app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
-    res.render("index", data);
+    res.render("index", {projects});
 });
 
 app.get("/about", (req, res) => {
@@ -19,7 +19,7 @@ app.get("/about", (req, res) => {
 
 app.get("/project/:id", (req, res) => {
     const {id} = req.params;
-    res.render("project", data.projects[id]);
+    res.render("project", {projects});
 });
 
 app.use((req, res, next) => {

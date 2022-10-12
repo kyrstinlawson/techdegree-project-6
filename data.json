@@ -13,7 +13,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-1/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-1/",
-            "image_urls": []
+            "image_urls": ["/static/images/randomQuote1.jpeg", "/static/images/randomQuote2.jpeg"]
         },
         {
             "id": 1,
@@ -27,7 +27,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-2/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-2/",
-            "image_urls": []
+            "image_urls": ["/static/images/studentDirectory1.jpeg", "/static/images/studentDirectory2.jpeg"]
         },
         {
             "id": 2,
@@ -41,7 +41,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-3/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-3/",
-            "image_urls": []
+            "image_urls": ["/static/images/form1.jpeg", "/static/images/form2.jpeg", "/static/images/form3.jpeg"]
         },
         {
             "id": 3,
@@ -57,7 +57,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-4/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-4/",
-            "image_urls": []
+            "image_urls": ["/static/images/phraseHunter1.jpeg", "/static/images/phraseHunter2.jpeg", "/static/images/phraseHunter3.jpeg"]
         },
         {
             "id": 4,
@@ -74,7 +74,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-5/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-5/",
-            "image_urls": []
+            "image_urls": ["/static/images/directory1.jpeg", "/static/images/directory2.jpeg", "/static/images/directory3.jpeg"]
         }
     ]
 }
