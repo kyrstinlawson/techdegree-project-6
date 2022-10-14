@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "A web application that generates a random quote",
+            "description": "A web application that generates a random quote, with a random colored background. The user can either click a button to generate a new quote, or the site will generate one automatically after a few seconds.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -13,7 +13,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-1/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-1/",
-            "image_urls": ["/static/images/randomQuoteMain.jpg", "/static/images/randomQuote1.jpg"]
+            "image_urls": ["/static/images/randomQuote1.jpg", "/static/images/randomQuote2.jpg", "/static/images/randomQuote3.jpg"]
         },
         {
             "id": 1,
@@ -27,7 +27,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-2/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-2/",
-            "image_urls": ["/static/images/studentDirectory1.jpg", "/static/images/studentDirectory2.jpeg"]
+            "image_urls": ["/static/images/studentDirectory1.jpg"]
         },
         {
             "id": 2,
@@ -41,7 +41,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-3/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-3/",
-            "image_urls": ["/static/images/form1.jpg", "/static/images/form2.jpeg", "/static/images/form3.jpeg"]
+            "image_urls": ["/static/images/form1.jpg", "/static/images/form2.jpg"]
         },
         {
             "id": 3,
@@ -57,7 +57,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-4/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-4/",
-            "image_urls": ["/static/images/phraseHunter1.jpg", "/static/images/phraseHunter2.jpeg", "/static/images/phraseHunter3.jpeg"]
+            "image_urls": ["/static/images/phraseHunter1.jpg", "/static/images/phraseHunter2.jpg"]
         },
         {
             "id": 4,
@@ -74,7 +74,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-5/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-5/",
-            "image_urls": ["/static/images/directory1.jpg", "/static/images/directory2.jpeg", "/static/images/directory3.jpeg"]
+            "image_urls": ["/static/images/directory1.jpg", "/static/images/directory2.jpg", "/static/images/directory3.jpg"]
         }
     ]
 }
