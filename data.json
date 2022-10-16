@@ -17,8 +17,8 @@
         },
         {
             "id": 1,
-            "project_name": "Data Pagination and Filtering",
-            "description": "A student directory that allows searching and filtering.",
+            "project_name": "Student Directory",
+            "description": "A student directory that uses data pagination and filtering allowing the user to easily sort through the students and find who they are looking for.",
             "technologies": [
                 "CSS",
                 "Javascript",
@@ -27,12 +27,12 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-2/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-2/",
-            "image_urls": ["/static/images/studentDirectory1.jpg"]
+            "image_urls": ["/static/images/studentDirectory1.jpg", "/static/images/studentDirectory2.jpg", "/static/images/studentDirectory3.jpg"]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "An interactive registration form for a conference.",
+            "description": "An interactive registration form for a conference. The form uses conditional statements to change options available to the user depending on previous selections. This form also validates information that user enters into form and notifies user of any errors or missing information upon submition.",
             "technologies": [
                 "Javascript",
                 "Git",
@@ -41,12 +41,12 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-3/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-3/",
-            "image_urls": ["/static/images/form1.jpg", "/static/images/form2.jpg"]
+            "image_urls": ["/static/images/form1.jpg", "/static/images/form2.jpg", "/static/images/form3.jpg"]
         },
         {
             "id": 3,
-            "project_name": "Phrase Hunter - Word Guessing Game",
-            "description": "An interactive word guessing game.",
+            "project_name": "Phrase Hunter Game",
+            "description": "An interactive phrase guessing game. This game generates a random phrase and has the user guess the phrase letter by letter. If the user incorrectly guesses a letter they lose a life.",
             "technologies": [
                 "CSS",
                 "Javascript",
@@ -57,12 +57,12 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-4/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-4/",
-            "image_urls": ["/static/images/phraseHunter1.jpg", "/static/images/phraseHunter2.jpg"]
+            "image_urls": ["/static/images/phraseHunter1.jpg", "/static/images/phraseHunter2.jpg", "/static/images/phraseHunter3.jpg", "/static/images/phraseHunter4.jpg"]
         },
         {
             "id": 4,
-            "project_name": "Employee Directory with Modal",
-            "description": "A searchable employee directory with interavtive modal.",
+            "project_name": "Employee Directory",
+            "description": "A searchable employee directory with interactive modal that gives you additional information about the employee and allows you to go through each one by one.",
             "technologies": [
                 "CSS",
                 "Javascript",
@@ -74,7 +74,7 @@
             ],
             "live_link": "https://kyrstinlawson.github.io/techdegree-project-5/",
             "github_link": "https://github.com/kyrstinlawson/techdegree-project-5/",
-            "image_urls": ["/static/images/directory1.jpg", "/static/images/directory2.jpg", "/static/images/directory3.jpg"]
+            "image_urls": ["/static/images/directory1.jpg", "/static/images/directory2.jpg", "/static/images/directory3.jpg", "/static/images/directory4.jpg"]
         }
     ]
 }
