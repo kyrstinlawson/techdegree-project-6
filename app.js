@@ -29,8 +29,19 @@ app.get("/project/:id", (req, res) => {
     }
 });
 
+app.use((req, res, next) => {
+    const err = new Error();
+    err.status = 404;
+    err.message = "This page does not exist";
+    next(err);
+});
+
 app.use((err, req, res, next) => {
-    console.log(err.status);
+    if (err.status === 404) {
+        res.render("page-not-found", {err}, console.log(`Error ${err.status}: Sorry there has been an error!`));
+    } else {
+        res.render("error", {err}, console.log(`Error ${err.status}: Sorry there has been an error!`))
+    }
 });
 
 app.listen(3000, () => {
