@@ -25,21 +25,12 @@ app.get("/project/:id", (req, res) => {
         const err = new Error();
         err.status = 404;
         err.message = "This page does not exist";
-        res.render("page-not-found", {err}, console.log(`${err.status}: ${err.message}`));
+        res.render("page-not-found", {err}, console.log(`Error ${err.status}: ${err.message}`));
     }
 });
 
-app.use((req, res, next) => {
-    const err = new Error();
-    err.status = 404;
-    err.message = "This page does not exist";
-    next(err);
-});
-
 app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render("page-not-found");
+    console.log(err.status);
 });
 
 app.listen(3000, () => {
