@@ -2,4 +2,6 @@ extends layout.pug
 
 block content 
 
-    h1 Page not found
+    h1 Error
+    h2= err.status
+    p= err.message

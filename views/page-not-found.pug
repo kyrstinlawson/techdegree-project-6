@@ -1,0 +1,8 @@
+extends layout.pug 
+
+block content 
+
+    h1= `Error ${err.status}`
+    h2= err.message
+    a(href="/")
+        h4 Portfolio Home

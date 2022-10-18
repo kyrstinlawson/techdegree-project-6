@@ -19,20 +19,27 @@ app.get("/about", (req, res) => {
 
 app.get("/project/:id", (req, res) => {
     const {id} = req.params;
-    res.render("project", {project: projects[id]});
+    if (id < projects.length) {
+        res.render("project", {project: projects[id]});
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = "This page does not exist";
+        res.render("page-not-found", {err}, console.log(`${err.status}: ${err.message}`));
+    }
 });
 
 app.use((req, res, next) => {
-    const err = new Error("Not found");
+    const err = new Error();
     err.status = 404;
-    err.message = "Page not found";
+    err.message = "This page does not exist";
     next(err);
 });
 
 app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
-    res.render("error");
+    res.render("page-not-found");
 });
 
 app.listen(3000, () => {
