@@ -36,14 +36,14 @@ h1,h2,h3,h4,h5,p{
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  letter-spacing: 2.5px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
 }
 
 h6{
-  letter-spacing: 2.5px;
+  letter-spacing: 1px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 600;
@@ -94,7 +94,7 @@ a {
 .box h6 {
   font-size: 1rem;
   font-weight: bolder;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .box li {
@@ -117,7 +117,7 @@ nav a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
-  letter-spacing: 2.5px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #555; 
 }
@@ -137,7 +137,10 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  border-right-style: solid;
+  border-width: 5px;
+  border-color: #000;
+  background: #ffffff;
 }
 
 .sidebar-info-box {
@@ -151,7 +154,6 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
 }
 
 .dev-intro-box {
@@ -159,7 +161,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #7624f0;
   margin: 0 auto 0.5rem;
 }
 
@@ -174,7 +176,7 @@ nav a span {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
-  letter-spacing: 2.5px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #555;
 }
@@ -242,10 +244,11 @@ nav a span {
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 13px;
-  letter-spacing: 2.25px;
+  letter-spacing: 0.5px;
+  text-align: center;
   text-transform: uppercase;
   color: #222;;
   margin: 0 auto 8px;
@@ -272,7 +275,7 @@ nav a span {
 }
 
 .about-bio p {
-  font-size: 15px;
+  font-size: 18px;
   padding-top: 40px;
 }
 
@@ -296,7 +299,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #7624f0;
   border: 1px solid transparent;
 }
 
